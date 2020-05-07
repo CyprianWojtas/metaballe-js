@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Metaballe JS</title>
+		<style>
+			body
+			{
+				margin: 0;
+				overflow: hidden;
+				background: #000;
+			}
+			#c
+			{
+				width: 100vw;
+				height: 100vh;
+				image-rendering: crisp-edges;
+			}
+			.pomoc
+			{
+				position: fixed;
+				top: 5px;
+				right: 5px;
+				color: #FFF;
+				font-family: sans-serif;
+				text-shadow: 0 0 5px #000, 0 0 5px #000;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="c"></canvas>
+		<div class="pomoc">
+		LPM - przesuwanie metaballi<br>
+		Ctrl + LPM - nowy metaball<br>
+		Scroll - zmiana rozmiaru metaballa
+		</div>
+		<script type="module" src="index.js"></script>
+	</body>
+</html>
